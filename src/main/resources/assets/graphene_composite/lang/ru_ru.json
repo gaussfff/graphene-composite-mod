@@ -1,0 +1,30 @@
+{
+  "block.graphene_composite.crusher":                 "Дробилка",
+  "block.graphene_composite.chemical_reactor":        "Химический реактор",
+  "block.graphene_composite.filtration_machine":      "Фильтрационая машина",
+  "block.graphene_composite.compressor":              "Компрессор",
+  "block.graphene_compisite.carbon_shale":            "Угольный сланец",
+
+  "item.graphene_compisite.graphene_boots":           "Графеновые ботинки",
+  "item.graphene_compisite.graphene_helmet":          "Графеновый шлем",
+  "item.graphene_compisite.graphene_chestplate":      "Графеновый нагрудник",
+  "item.graphene_compisite.graphene_leggings":        "Графеновые поножи",
+  "item.graphene_compisite.graphene_sword":           "Графеновый меч",
+  "item.graphene_compisite.graphite":                 "Графит",
+  "item.graphene_compisite.graphene":                 "Графен",
+  "item.graphene_compisite.graphene_plate":           "Графеновая плита",
+  "item.graphene_compisite.graphene_composite":       "Графеновый композит",
+  "item.graphene_compisite.graphene_suspension":      "Графеновая суспензиия",
+  "item.graphene_compisite.graphene_composite_blank": "Заготовка графеновокго композита",
+  "item.graphene_compisite.coal_dust":                "Угольная пыль",
+  "item.graphene_compisite.liquid_carbon_bucket":     "Ведро жидкого углерода",
+  "item.graphene_compisite.polymer_thread":           "Полимерная нить",
+  "item.graphene_compisite.tree_bark":                "Кора дерева",
+  "item.graphene_compisite.tree_resine":              "Смола дерева",
+  "item.graphene_compisite.mechanism":                "Механизм",
+
+  "creativetab.graphene_compisite.functional_blocks": "GC Функциональные блоки",
+  "creativetab.graphene_compisite.natural_blocks":    "GC Природные блоки",
+  "creativetab.graphene_compisite.combat":            "GC Оружие и доспехи",
+  "creativetab.graphene_compisite.ingredients":       "GC Ингредиенты"
+}

@@ -1,0 +1,30 @@
+{
+  "block.graphene_composite.crusher":                 "Crusher",
+  "block.graphene_composite.chemical_reactor":        "Chemical Reactor",
+  "block.graphene_composite.filtration_machine":      "Filtration Machine",
+  "block.graphene_composite.compressor":              "Compressor",
+  "block.graphene_compisite.carbon_shale":            "Carbon Shale",
+
+  "item.graphene_compisite.graphene_boots":           "Graphene Boots",
+  "item.graphene_compisite.graphene_helmet":          "Graphene Helmet",
+  "item.graphene_compisite.graphene_chestplate":      "Graphene Chestplate",
+  "item.graphene_compisite.graphene_leggings":        "Graphene Leggings",
+  "item.graphene_compisite.graphene_sword":           "Graphene Sword",
+  "item.graphene_compisite.graphite":                 "Graphite",
+  "item.graphene_compisite.graphene":                 "Graphene",
+  "item.graphene_compisite.graphene_plate":           "Graphene Plate",
+  "item.graphene_compisite.graphene_composite":       "Graphene Composite",
+  "item.graphene_compisite.graphene_suspension":      "Graphene Suspension",
+  "item.graphene_compisite.graphene_composite_blank": "Graphene Composite Blank",
+  "item.graphene_compisite.coal_dust":                "Coal Dust",
+  "item.graphene_compisite.liquid_carbon_bucket":     "Liquid Carbon Bucket",
+  "item.graphene_compisite.polymer_thread":           "Polymer Thread",
+  "item.graphene_compisite.tree_bark":                "Tree Bark",
+  "item.graphene_compisite.tree_resine":              "Tree Resin",
+  "item.graphene_compisite.mechanism":                "Mechanism",
+
+  "creativetab.graphene_compisite.functional_blocks": "GC Functional Blocks",
+  "creativetab.graphene_compisite.natural_blocks":    "GC Natural Blocks",
+  "creativetab.graphene_compisite.combat":            "GC Combat",
+  "creativetab.graphene_compisite.ingredients":       "GC Ingredients"
+}

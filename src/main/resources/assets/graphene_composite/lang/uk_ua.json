@@ -1,0 +1,30 @@
+{
+  "block.graphene_composite.crusher":                 "Дробильник",
+  "block.graphene_composite.chemical_reactor":        "Хімічний реактор",
+  "block.graphene_composite.filtration_machine":      "Фільтраційна машина",
+  "block.graphene_composite.compressor":              "Компресор",
+  "block.graphene_compisite.carbon_shale":            "Вігульний сланець",
+
+  "item.graphene_compisite.graphene_boots":           "Графенові чоботи",
+  "item.graphene_compisite.graphene_helmet":          "Графеновий шолом",
+  "item.graphene_compisite.graphene_chestplate":      "Графеновий нагрудник",
+  "item.graphene_compisite.graphene_leggings":        "Графенові наголінники",
+  "item.graphene_compisite.graphene_sword":           "Графеновий меч",
+  "item.graphene_compisite.graphite":                 "Графіт",
+  "item.graphene_compisite.graphene":                 "Графен",
+  "item.graphene_compisite.graphene_plate":           "Графенова плита",
+  "item.graphene_compisite.graphene_composite":       "Графеновий композит",
+  "item.graphene_compisite.graphene_suspension":      "Графенова суспензія",
+  "item.graphene_compisite.graphene_composite_blank": "Заготовка графенового композиту",
+  "item.graphene_compisite.coal_dust":                "Вігильний пил",
+  "item.graphene_compisite.liquid_carbon_bucket":     "Відро рідкого вуглецю",
+  "item.graphene_compisite.polymer_thread":           "Полімерна нитка",
+  "item.graphene_compisite.tree_bark":                "Кора дерева",
+  "item.graphene_compisite.tree_resin":               "Деревна смола",
+  "item.graphene_compisite.mechanism":                "Механізм",
+
+  "creativetab.graphene_compisite.functional_blocks": "GC Функціональні блоки",
+  "creativetab.graphene_compisite.natural_blocks":    "GC Природні блоки",
+  "creativetab.graphene_compisite.combat":            "GC Бойове приладдя",
+  "creativetab.graphene_compisite.ingredients":       "GC Інгредієнти"
+}

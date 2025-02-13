@@ -7,7 +7,7 @@ import net.minecraft.world.item.Item;
 import java.util.function.Function;
 
 public enum Items {
-    // combbat
+    // combat
     GRAPHENE_BOOTS("graphene_boots", GrapheneBootsItem::new),
     GRAPHENE_HELMET("graphene_helmet", GrapheneHelmet::new),
     GRAPHENE_CHESTPLATE("graphene_chestplate", GrapheneChestplateItem::new),
@@ -22,10 +22,10 @@ public enum Items {
     GRAPHENE_SUSPENSION("graphene_suspension", GrapheneSuspensionItem::new),
     GRAPHENE_COMPOSITE_BLANK("graphene_composite_blank", GrapheneCompositeBlankItem::new),
     COAL_DUST("coal_dust", CoalDustItem::new),
-    LIQUID_CARBON_BUCKET("liquid_carbon", LiquidCarbonBucketItem::new),
+    LIQUID_CARBON_BUCKET("liquid_carbon_bucket", LiquidCarbonBucketItem::new),
     POLYMER_THREAD("polymer_thread", PolymerThreadItem::new),
     TREE_BARK("tree_bark", TreeBarkItem::new),
-    TREE_RESINE("tree_resine", TreeResinItem::new),
+    TREE_RESIN("tree_resin", TreeResinItem::new),
     MECHANISM("mechanism", MechanismItem::new);
 
     private final String id;
