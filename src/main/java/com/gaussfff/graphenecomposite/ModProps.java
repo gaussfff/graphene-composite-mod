@@ -1,8 +1,8 @@
 package com.gaussfff.graphenecomposite;
 
-public final class Props {
+public final class ModProps {
 
-    private Props() {
+    private ModProps() {
         throw new UnsupportedOperationException();
     }
 
