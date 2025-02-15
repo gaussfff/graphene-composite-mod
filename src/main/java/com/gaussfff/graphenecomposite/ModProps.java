@@ -6,5 +6,5 @@ public final class ModProps {
         throw new UnsupportedOperationException();
     }
 
-    public static final String MODID = "graphene_composite";
+    public static final String MOD_ID = "graphene_composite";
 }
