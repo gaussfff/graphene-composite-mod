@@ -5,7 +5,6 @@ import com.gaussfff.graphenecomposite.core.register.CreativeTabRegister;
 import com.gaussfff.graphenecomposite.core.register.ItemRegister;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
-import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 
 @Mod(ModProps.MOD_ID)
 public class ModStartup {
