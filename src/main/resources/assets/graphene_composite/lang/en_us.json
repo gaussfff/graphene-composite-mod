@@ -3,7 +3,7 @@
   "block.graphene_composite.chemical_reactor":        "Chemical Reactor",
   "block.graphene_composite.filtration_machine":      "Filtration Machine",
   "block.graphene_composite.compressor":              "Compressor",
-  "block.graphene_compisite.carbon_shale":            "Carbon Shale",
+  "block.graphene_compisite.carbon_shale_ore":        "Carbon Shale",
 
   "item.graphene_compisite.graphene_boots":           "Graphene Boots",
   "item.graphene_compisite.graphene_helmet":          "Graphene Helmet",

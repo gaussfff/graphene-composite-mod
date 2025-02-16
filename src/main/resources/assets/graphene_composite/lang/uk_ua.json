@@ -3,7 +3,7 @@
   "block.graphene_composite.chemical_reactor":        "Хімічний реактор",
   "block.graphene_composite.filtration_machine":      "Фільтраційна машина",
   "block.graphene_composite.compressor":              "Компресор",
-  "block.graphene_compisite.carbon_shale":            "Вігульний сланець",
+  "block.graphene_compisite.carbon_shale_ore":        "Вігульний сланець",
 
   "item.graphene_compisite.graphene_boots":           "Графенові чоботи",
   "item.graphene_compisite.graphene_helmet":          "Графеновий шолом",

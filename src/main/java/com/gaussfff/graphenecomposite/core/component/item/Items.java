@@ -1,5 +1,10 @@
 package com.gaussfff.graphenecomposite.core.component.item;
 
+import com.gaussfff.graphenecomposite.core.component.item.block_item.functional.ChemicalReactorBlockItem;
+import com.gaussfff.graphenecomposite.core.component.item.block_item.functional.CompressorBlockItem;
+import com.gaussfff.graphenecomposite.core.component.item.block_item.functional.CrusherBlockItem;
+import com.gaussfff.graphenecomposite.core.component.item.block_item.functional.FiltrationMachineBlockItem;
+import com.gaussfff.graphenecomposite.core.component.item.block_item.natural.CarbonShaleOreBlockItem;
 import com.gaussfff.graphenecomposite.core.component.item.combat.*;
 import com.gaussfff.graphenecomposite.core.component.item.ingredients.*;
 import net.minecraft.world.item.Item;
@@ -26,7 +31,16 @@ public enum Items {
     POLYMER_THREAD("polymer_thread", PolymerThreadItem::new),
     TREE_BARK("tree_bark", TreeBarkItem::new),
     TREE_RESIN("tree_resin", TreeResinItem::new),
-    MECHANISM("mechanism", MechanismItem::new);
+    MECHANISM("mechanism", MechanismItem::new),
+
+    // functional block items
+    CRUSHER("crusher", CrusherBlockItem::new),
+    CHEMICAL_REACTOR("chemical_reactor", ChemicalReactorBlockItem::new),
+    FILTRATION_MACHINE("filtration_machine", FiltrationMachineBlockItem::new),
+    COMPRESSOR("compressor", CompressorBlockItem::new),
+
+    // natural block items
+    CARBON_SHALE_ORE("carbon_shale", CarbonShaleOreBlockItem::new);
 
     private final String id;
     private final Function<Item.Properties, Item> constructor;

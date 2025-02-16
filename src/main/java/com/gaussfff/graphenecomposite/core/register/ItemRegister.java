@@ -55,6 +55,15 @@ public final class ItemRegister {
         register(TREE_RESIN);
         register(MECHANISM);
 
+        // functional block items
+        register(CRUSHER);
+        register(CHEMICAL_REACTOR);
+        register(FILTRATION_MACHINE);
+        register(COMPRESSOR);
+
+        // natural block items
+        register(CARBON_SHALE_ORE);
+
         LOGGER.debug("item register was loaded");
     }
 

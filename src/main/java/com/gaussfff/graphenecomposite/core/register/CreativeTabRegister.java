@@ -46,10 +46,10 @@ public final class CreativeTabRegister {
                 NATURAL_BLOCKS,
                 creativeTabs.register(
                         NATURAL_BLOCKS.getId(),
-                        () -> CreativeModeTab.builder().icon(() -> new ItemStack(blockRegister.getBlock(Blocks.CARBON_SHALE).get()))
+                        () -> CreativeModeTab.builder().icon(() -> new ItemStack(blockRegister.getBlock(Blocks.CARBON_SHALE_ORE).get()))
                                 .title(NATURAL_BLOCKS.getTitle())
                                 .displayItems((itemDisplayParameters, output) -> {
-                                    output.accept(blockRegister.getBlock(Blocks.CARBON_SHALE));
+                                    output.accept(blockRegister.getBlock(Blocks.CARBON_SHALE_ORE));
                                 }).build()
                 )
         );

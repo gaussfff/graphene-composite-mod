@@ -3,7 +3,7 @@
   "block.graphene_composite.chemical_reactor":        "Химический реактор",
   "block.graphene_composite.filtration_machine":      "Фильтрационая машина",
   "block.graphene_composite.compressor":              "Компрессор",
-  "block.graphene_compisite.carbon_shale":            "Угольный сланец",
+  "block.graphene_compisite.carbon_shale_ore":        "Угольный сланец",
 
   "item.graphene_compisite.graphene_boots":           "Графеновые ботинки",
   "item.graphene_compisite.graphene_helmet":          "Графеновый шлем",

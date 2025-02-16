@@ -4,7 +4,7 @@ import com.gaussfff.graphenecomposite.core.component.block.functional.ChemicalRe
 import com.gaussfff.graphenecomposite.core.component.block.functional.CompressorBlock;
 import com.gaussfff.graphenecomposite.core.component.block.functional.CrusherBlock;
 import com.gaussfff.graphenecomposite.core.component.block.functional.FiltrationMachineBlock;
-import com.gaussfff.graphenecomposite.core.component.block.natural.CarbonShaleBlock;
+import com.gaussfff.graphenecomposite.core.component.block.natural.CarbonShaleOreBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 
@@ -17,7 +17,7 @@ public enum Blocks {
     FILTRATION_MACHINE("filtration_machine", FiltrationMachineBlock::new),
     COMPRESSOR("compressor", CompressorBlock::new),
     // natural blocks
-    CARBON_SHALE("carbon_shale", CarbonShaleBlock::new);
+    CARBON_SHALE_ORE("carbon_shale_ore", CarbonShaleOreBlock::new);
 
     private final String id;
     private final Function<BlockBehaviour.Properties, Block> constructor;

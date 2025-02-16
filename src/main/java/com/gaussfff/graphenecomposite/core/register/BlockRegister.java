@@ -11,6 +11,7 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import com.mojang.logging.LogUtils;
 import org.slf4j.Logger;
+import net.minecraft.core.Holder;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -37,13 +38,13 @@ public final class BlockRegister {
 
         // register functional blocks
         register(CRUSHER);
-        register(CARBON_SHALE);
+        register(CARBON_SHALE_ORE);
         register(CHEMICAL_REACTOR);
         register(FILTRATION_MACHINE);
         register(COMPRESSOR);
 
         // register natural blocks
-        register(CARBON_SHALE);
+        register(CARBON_SHALE_ORE);
 
         LOGGER.debug("block register was loaded");
     }
@@ -60,6 +61,10 @@ public final class BlockRegister {
                 )
         );
         LOGGER.debug(String.format("block %s was registered", block));
+    }
+
+    public Iterable<Block> getBlockIteratorFn() {
+        return blocks.getEntries().stream().map(Holder::value)::iterator;
     }
 
     public DeferredBlock<? extends Block> getBlock(Blocks block) {
