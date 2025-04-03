@@ -34,7 +34,7 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
     @Override
     protected void generate() {
         add(blockRegister.getBlock(Blocks.CARBON_SHALE_ORE).get(),
-                block -> createMultipleOreDrops(blockRegister.getBlock(Blocks.CARBON_SHALE_ORE).get(), itemRegister.getItem(Items.COAL_DUST).get(), 2, 5)));
+                block -> createMultipleOreDrops(blockRegister.getBlock(Blocks.CARBON_SHALE_ORE).get(), itemRegister.getItem(Items.COAL_DUST).get(), 2, 5));
     }
 
     protected LootTable.Builder createMultipleOreDrops(Block block, Item item, float minDrops, float maxDrops) {
